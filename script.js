@@ -1,5 +1,5 @@
 let noButtonClickCount = 0; // Contador para el botón "No"
-let noButtonStat = 0; // Estado actual del botón "No"
+let noButtonState = 0; // Estado actual del botón "No"
 
 // Mostrar el gif inicial
 document.getElementById('gifContainer').style.display = 'block';
@@ -261,3 +261,5 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
     }
 });
+
+
